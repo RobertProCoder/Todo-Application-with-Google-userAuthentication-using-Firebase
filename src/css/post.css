@@ -1,0 +1,32 @@
+.post{
+    width: 40%;
+    background-color: rgb(228, 236, 243);
+    border-radius: 10px;
+    margin:30px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:50px
+}
+
+.uploader-profile{
+    display:flex;
+    align-items: center;
+    width: 100%;
+    gap:5px;
+}
+.uploader-profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.post-title{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.post-description{
+    font-size: 20px;
+}

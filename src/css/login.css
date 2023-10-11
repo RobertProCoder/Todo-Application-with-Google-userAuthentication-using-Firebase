@@ -1,0 +1,24 @@
+
+
+.login-interface{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.google-login{
+    width: 30%;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:sans-serif;
+
+}
+.google-login:hover{
+    background-color: rgb(245, 157, 245);
+    color:white;
+}
